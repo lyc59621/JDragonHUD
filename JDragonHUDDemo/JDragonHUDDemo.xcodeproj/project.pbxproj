@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F25E2439B216EEBEF7BCC2 /* libPods-JDragonHUDDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853E14A7D85128D7C6AE3ADF /* libPods-JDragonHUDDemoTests.a */; };
+		3333C6F5369700A644B01E95 /* libPods-JDragonHUDDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B87539115B2921B5B1129C /* libPods-JDragonHUDDemoUITests.a */; };
+		68A298486696F8D20E4C4581 /* libPods-JDragonHUDDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1031C80739422DE97BA1C43 /* libPods-JDragonHUDDemo.a */; };
+		6916B2421E2CB93B002B14E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916B2411E2CB93B002B14E8 /* main.m */; };
+		6916B2451E2CB93B002B14E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916B2441E2CB93B002B14E8 /* AppDelegate.m */; };
+		6916B2481E2CB93B002B14E8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916B2471E2CB93B002B14E8 /* FirstViewController.m */; };
+		6916B24B1E2CB93B002B14E8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916B24A1E2CB93B002B14E8 /* SecondViewController.m */; };
+		6916B2501E2CB93B002B14E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6916B24F1E2CB93B002B14E8 /* Assets.xcassets */; };
+		6916B2531E2CB93B002B14E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6916B2511E2CB93B002B14E8 /* LaunchScreen.storyboard */; };
+		6916B25E1E2CB93B002B14E8 /* JDragonHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916B25D1E2CB93B002B14E8 /* JDragonHUDDemoTests.m */; };
+		6916B2691E2CB93B002B14E8 /* JDragonHUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6916B2681E2CB93B002B14E8 /* JDragonHUDDemoUITests.m */; };
+		6916B2771E2CBBA6002B14E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6916B2761E2CBBA6002B14E8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6916B25A1E2CB93B002B14E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6916B2351E2CB93B002B14E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6916B23C1E2CB93B002B14E8;
+			remoteInfo = JDragonHUDDemo;
+		};
+		6916B2651E2CB93B002B14E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6916B2351E2CB93B002B14E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6916B23C1E2CB93B002B14E8;
+			remoteInfo = JDragonHUDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53EA664F01B3E32D76AB232C /* Pods-JDragonHUDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonHUDDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonHUDDemo/Pods-JDragonHUDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		597BB9505DB626816F3DB143 /* Pods-JDragonHUDDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonHUDDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonHUDDemoTests/Pods-JDragonHUDDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6916B23D1E2CB93B002B14E8 /* JDragonHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDragonHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6916B2411E2CB93B002B14E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6916B2431E2CB93B002B14E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6916B2441E2CB93B002B14E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6916B2461E2CB93B002B14E8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6916B2471E2CB93B002B14E8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		6916B2491E2CB93B002B14E8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		6916B24A1E2CB93B002B14E8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		6916B24F1E2CB93B002B14E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6916B2521E2CB93B002B14E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6916B2541E2CB93B002B14E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6916B2591E2CB93B002B14E8 /* JDragonHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDragonHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6916B25D1E2CB93B002B14E8 /* JDragonHUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDragonHUDDemoTests.m; sourceTree = "<group>"; };
+		6916B25F1E2CB93B002B14E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6916B2641E2CB93B002B14E8 /* JDragonHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDragonHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6916B2681E2CB93B002B14E8 /* JDragonHUDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDragonHUDDemoUITests.m; sourceTree = "<group>"; };
+		6916B26A1E2CB93B002B14E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6916B2761E2CBBA6002B14E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7DBA86611450F78408CCFE3A /* Pods-JDragonHUDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonHUDDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonHUDDemoTests/Pods-JDragonHUDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		853E14A7D85128D7C6AE3ADF /* libPods-JDragonHUDDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDragonHUDDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC0D87B171A10827DC8865C /* Pods-JDragonHUDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonHUDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonHUDDemo/Pods-JDragonHUDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		94B87539115B2921B5B1129C /* libPods-JDragonHUDDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDragonHUDDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D3A35246F835FB327C6F59 /* Pods-JDragonHUDDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonHUDDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonHUDDemoUITests/Pods-JDragonHUDDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC977C874B81BC151A833773 /* Pods-JDragonHUDDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDragonHUDDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDragonHUDDemoUITests/Pods-JDragonHUDDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1031C80739422DE97BA1C43 /* libPods-JDragonHUDDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDragonHUDDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6916B23A1E2CB93B002B14E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A298486696F8D20E4C4581 /* libPods-JDragonHUDDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916B2561E2CB93B002B14E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F25E2439B216EEBEF7BCC2 /* libPods-JDragonHUDDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916B2611E2CB93B002B14E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3333C6F5369700A644B01E95 /* libPods-JDragonHUDDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE4DD36937F112CF7992D11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1031C80739422DE97BA1C43 /* libPods-JDragonHUDDemo.a */,
+				853E14A7D85128D7C6AE3ADF /* libPods-JDragonHUDDemoTests.a */,
+				94B87539115B2921B5B1129C /* libPods-JDragonHUDDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6916B2341E2CB93B002B14E8 = {
+			isa = PBXGroup;
+			children = (
+				6916B23F1E2CB93B002B14E8 /* JDragonHUDDemo */,
+				6916B25C1E2CB93B002B14E8 /* JDragonHUDDemoTests */,
+				6916B2671E2CB93B002B14E8 /* JDragonHUDDemoUITests */,
+				6916B23E1E2CB93B002B14E8 /* Products */,
+				74B0B9FCB95EB45494E1A1BA /* Pods */,
+				2BE4DD36937F112CF7992D11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6916B23E1E2CB93B002B14E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6916B23D1E2CB93B002B14E8 /* JDragonHUDDemo.app */,
+				6916B2591E2CB93B002B14E8 /* JDragonHUDDemoTests.xctest */,
+				6916B2641E2CB93B002B14E8 /* JDragonHUDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6916B23F1E2CB93B002B14E8 /* JDragonHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6916B2431E2CB93B002B14E8 /* AppDelegate.h */,
+				6916B2441E2CB93B002B14E8 /* AppDelegate.m */,
+				6916B2461E2CB93B002B14E8 /* FirstViewController.h */,
+				6916B2471E2CB93B002B14E8 /* FirstViewController.m */,
+				6916B2491E2CB93B002B14E8 /* SecondViewController.h */,
+				6916B24A1E2CB93B002B14E8 /* SecondViewController.m */,
+				6916B24F1E2CB93B002B14E8 /* Assets.xcassets */,
+				6916B2511E2CB93B002B14E8 /* LaunchScreen.storyboard */,
+				6916B2761E2CBBA6002B14E8 /* Main.storyboard */,
+				6916B2541E2CB93B002B14E8 /* Info.plist */,
+				6916B2401E2CB93B002B14E8 /* Supporting Files */,
+			);
+			path = JDragonHUDDemo;
+			sourceTree = "<group>";
+		};
+		6916B2401E2CB93B002B14E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6916B2411E2CB93B002B14E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6916B25C1E2CB93B002B14E8 /* JDragonHUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6916B25D1E2CB93B002B14E8 /* JDragonHUDDemoTests.m */,
+				6916B25F1E2CB93B002B14E8 /* Info.plist */,
+			);
+			path = JDragonHUDDemoTests;
+			sourceTree = "<group>";
+		};
+		6916B2671E2CB93B002B14E8 /* JDragonHUDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6916B2681E2CB93B002B14E8 /* JDragonHUDDemoUITests.m */,
+				6916B26A1E2CB93B002B14E8 /* Info.plist */,
+			);
+			path = JDragonHUDDemoUITests;
+			sourceTree = "<group>";
+		};
+		74B0B9FCB95EB45494E1A1BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53EA664F01B3E32D76AB232C /* Pods-JDragonHUDDemo.debug.xcconfig */,
+				8AC0D87B171A10827DC8865C /* Pods-JDragonHUDDemo.release.xcconfig */,
+				7DBA86611450F78408CCFE3A /* Pods-JDragonHUDDemoTests.debug.xcconfig */,
+				597BB9505DB626816F3DB143 /* Pods-JDragonHUDDemoTests.release.xcconfig */,
+				96D3A35246F835FB327C6F59 /* Pods-JDragonHUDDemoUITests.debug.xcconfig */,
+				AC977C874B81BC151A833773 /* Pods-JDragonHUDDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6916B23C1E2CB93B002B14E8 /* JDragonHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6916B26D1E2CB93B002B14E8 /* Build configuration list for PBXNativeTarget "JDragonHUDDemo" */;
+			buildPhases = (
+				77424E35507D45D58744EF0D /* [CP] Check Pods Manifest.lock */,
+				6916B2391E2CB93B002B14E8 /* Sources */,
+				6916B23A1E2CB93B002B14E8 /* Frameworks */,
+				6916B23B1E2CB93B002B14E8 /* Resources */,
+				67C6AA2B90053E97273B148F /* [CP] Embed Pods Frameworks */,
+				20731E88B1EF81F0D502CE89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDragonHUDDemo;
+			productName = JDragonHUDDemo;
+			productReference = 6916B23D1E2CB93B002B14E8 /* JDragonHUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6916B2581E2CB93B002B14E8 /* JDragonHUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6916B2701E2CB93B002B14E8 /* Build configuration list for PBXNativeTarget "JDragonHUDDemoTests" */;
+			buildPhases = (
+				0B8091CF9FD9496DE7F16079 /* [CP] Check Pods Manifest.lock */,
+				6916B2551E2CB93B002B14E8 /* Sources */,
+				6916B2561E2CB93B002B14E8 /* Frameworks */,
+				6916B2571E2CB93B002B14E8 /* Resources */,
+				3C93C7490B43C0CCBB06A4AF /* [CP] Embed Pods Frameworks */,
+				D1D541CE0085B23F09E3C396 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6916B25B1E2CB93B002B14E8 /* PBXTargetDependency */,
+			);
+			name = JDragonHUDDemoTests;
+			productName = JDragonHUDDemoTests;
+			productReference = 6916B2591E2CB93B002B14E8 /* JDragonHUDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6916B2631E2CB93B002B14E8 /* JDragonHUDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6916B2731E2CB93B002B14E8 /* Build configuration list for PBXNativeTarget "JDragonHUDDemoUITests" */;
+			buildPhases = (
+				59A8FC4BAE7E487D580FFB15 /* [CP] Check Pods Manifest.lock */,
+				6916B2601E2CB93B002B14E8 /* Sources */,
+				6916B2611E2CB93B002B14E8 /* Frameworks */,
+				6916B2621E2CB93B002B14E8 /* Resources */,
+				B034F794D4290670AFC61BF0 /* [CP] Embed Pods Frameworks */,
+				5FFD73FC4047C56E1BB9EC40 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6916B2661E2CB93B002B14E8 /* PBXTargetDependency */,
+			);
+			name = JDragonHUDDemoUITests;
+			productName = JDragonHUDDemoUITests;
+			productReference = 6916B2641E2CB93B002B14E8 /* JDragonHUDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6916B2351E2CB93B002B14E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JDragon;
+				TargetAttributes = {
+					6916B23C1E2CB93B002B14E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NBCMCCDR2L;
+						ProvisioningStyle = Automatic;
+					};
+					6916B2581E2CB93B002B14E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NBCMCCDR2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6916B23C1E2CB93B002B14E8;
+					};
+					6916B2631E2CB93B002B14E8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NBCMCCDR2L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6916B23C1E2CB93B002B14E8;
+					};
+				};
+			};
+			buildConfigurationList = 6916B2381E2CB93B002B14E8 /* Build configuration list for PBXProject "JDragonHUDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6916B2341E2CB93B002B14E8;
+			productRefGroup = 6916B23E1E2CB93B002B14E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6916B23C1E2CB93B002B14E8 /* JDragonHUDDemo */,
+				6916B2581E2CB93B002B14E8 /* JDragonHUDDemoTests */,
+				6916B2631E2CB93B002B14E8 /* JDragonHUDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6916B23B1E2CB93B002B14E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916B2771E2CBBA6002B14E8 /* Main.storyboard in Resources */,
+				6916B2531E2CB93B002B14E8 /* LaunchScreen.storyboard in Resources */,
+				6916B2501E2CB93B002B14E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916B2571E2CB93B002B14E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916B2621E2CB93B002B14E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B8091CF9FD9496DE7F16079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		20731E88B1EF81F0D502CE89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonHUDDemo/Pods-JDragonHUDDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C93C7490B43C0CCBB06A4AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonHUDDemoTests/Pods-JDragonHUDDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A8FC4BAE7E487D580FFB15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FFD73FC4047C56E1BB9EC40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonHUDDemoUITests/Pods-JDragonHUDDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67C6AA2B90053E97273B148F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonHUDDemo/Pods-JDragonHUDDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77424E35507D45D58744EF0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B034F794D4290670AFC61BF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonHUDDemoUITests/Pods-JDragonHUDDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D541CE0085B23F09E3C396 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDragonHUDDemoTests/Pods-JDragonHUDDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6916B2391E2CB93B002B14E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916B24B1E2CB93B002B14E8 /* SecondViewController.m in Sources */,
+				6916B2451E2CB93B002B14E8 /* AppDelegate.m in Sources */,
+				6916B2481E2CB93B002B14E8 /* FirstViewController.m in Sources */,
+				6916B2421E2CB93B002B14E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916B2551E2CB93B002B14E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916B25E1E2CB93B002B14E8 /* JDragonHUDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6916B2601E2CB93B002B14E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6916B2691E2CB93B002B14E8 /* JDragonHUDDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6916B25B1E2CB93B002B14E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6916B23C1E2CB93B002B14E8 /* JDragonHUDDemo */;
+			targetProxy = 6916B25A1E2CB93B002B14E8 /* PBXContainerItemProxy */;
+		};
+		6916B2661E2CB93B002B14E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6916B23C1E2CB93B002B14E8 /* JDragonHUDDemo */;
+			targetProxy = 6916B2651E2CB93B002B14E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6916B2511E2CB93B002B14E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6916B2521E2CB93B002B14E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6916B26B1E2CB93B002B14E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6916B26C1E2CB93B002B14E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6916B26E1E2CB93B002B14E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EA664F01B3E32D76AB232C /* Pods-JDragonHUDDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonHUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6916B26F1E2CB93B002B14E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC0D87B171A10827DC8865C /* Pods-JDragonHUDDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonHUDDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonHUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6916B2711E2CB93B002B14E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBA86611450F78408CCFE3A /* Pods-JDragonHUDDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonHUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDragonHUDDemo.app/JDragonHUDDemo";
+			};
+			name = Debug;
+		};
+		6916B2721E2CB93B002B14E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597BB9505DB626816F3DB143 /* Pods-JDragonHUDDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonHUDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonHUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDragonHUDDemo.app/JDragonHUDDemo";
+			};
+			name = Release;
+		};
+		6916B2741E2CB93B002B14E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D3A35246F835FB327C6F59 /* Pods-JDragonHUDDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonHUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonHUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDragonHUDDemo;
+			};
+			name = Debug;
+		};
+		6916B2751E2CB93B002B14E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC977C874B81BC151A833773 /* Pods-JDragonHUDDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = NBCMCCDR2L;
+				INFOPLIST_FILE = JDragonHUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruthout.JDragonHUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JDragonHUDDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6916B2381E2CB93B002B14E8 /* Build configuration list for PBXProject "JDragonHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6916B26B1E2CB93B002B14E8 /* Debug */,
+				6916B26C1E2CB93B002B14E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6916B26D1E2CB93B002B14E8 /* Build configuration list for PBXNativeTarget "JDragonHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6916B26E1E2CB93B002B14E8 /* Debug */,
+				6916B26F1E2CB93B002B14E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6916B2701E2CB93B002B14E8 /* Build configuration list for PBXNativeTarget "JDragonHUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6916B2711E2CB93B002B14E8 /* Debug */,
+				6916B2721E2CB93B002B14E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6916B2731E2CB93B002B14E8 /* Build configuration list for PBXNativeTarget "JDragonHUDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6916B2741E2CB93B002B14E8 /* Debug */,
+				6916B2751E2CB93B002B14E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6916B2351E2CB93B002B14E8 /* Project object */;
+}

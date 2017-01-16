@@ -1,0 +1,23 @@
+{
+  "name": "JDragonHUD",
+  "version": "0.0.1",
+  "summary": "iOS HUD 封装",
+  "description": "一个非常简单的HUD展示",
+  "homepage": "https://github.com/lyc59621/JDragonHUD",
+  "license": "MIT",
+  "authors": {
+    "JDragon": "lyc59621@icloud.com"
+  },
+  "source": {
+    "git": "git@github.com:lyc59621/JDragonHUD.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "JDragonHUD/*.{h,m}",
+  "requires_arc": true,
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

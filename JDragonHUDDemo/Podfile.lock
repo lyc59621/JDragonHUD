@@ -1,0 +1,16 @@
+PODS:
+  - JDragonHUD (0.0.1)
+
+DEPENDENCIES:
+  - JDragonHUD (from `../JDragonHUD.podspec`)
+
+EXTERNAL SOURCES:
+  JDragonHUD:
+    :path: "../JDragonHUD.podspec"
+
+SPEC CHECKSUMS:
+  JDragonHUD: ca3bb7c82a6bb256321be605e87c23166b16807a
+
+PODFILE CHECKSUM: 3e40d8c0eeeaed3809a6a4c31ed010ab6de3009b
+
+COCOAPODS: 1.2.0.beta.1

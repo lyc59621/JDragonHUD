@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2925BB559FBECF80E855399278860697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		36189C5404C57A76731F2040C3B45BD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3FE0A7447EA59950FA0E7924F81332BB /* JDragonLoadHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB46925716ED945BDCD69565D0C15ABC /* JDragonLoadHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5589DC37E3835A0FD868B8A9D55CD93A /* JDragonHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A7226FCA5E4CE766265D3DAAF1D88B36 /* JDragonHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		65A03F1CB7CAE83C4FCD62E7EB5D351A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A447CB3F04C6BE48ECAFB86EC1862E14 /* JDragonTipHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = A7124900C543370F03F553765C85ABA6 /* JDragonTipHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B94B6FB51543173438489595BD58AE /* JDragonHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B060A78C86F5FBE48D8D69E7279C1B /* JDragonHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6EC729823A456E2A19DB99C8F13B9C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A8C782F9D3EF4850D4ECFDD2AD8C8FBE /* JDragonLoadHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 731E982DBF7FF79C51397FB32444989C /* JDragonLoadHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE380FD66548AF866B0FEB3C88A7F78 /* JDragonTipHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 209AAABA666616C35146F2D18D02D410 /* JDragonTipHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB4275D45837F8314974C1F1B6A5A46E /* JDragonHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75330F9FA05C2B825FCB0CF85DBE7270 /* JDragonHUD-dummy.m */; };
+		C85E2BF5CFE84933AD6A551D736C6936 /* Pods-JDragonHUDDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 475E276D859175BF135DE2C8EED112C1 /* Pods-JDragonHUDDemoTests-dummy.m */; };
+		CB0323C3E130896B89E52DB709D2ED02 /* Pods-JDragonHUDDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0471AA971AF53D1DD9D1F877A6B28F05 /* Pods-JDragonHUDDemo-dummy.m */; };
+		EC2810A92BFD8A918F745F6419C3AB96 /* Pods-JDragonHUDDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C13850C577A49F3E58CE969B69F4DCFE /* Pods-JDragonHUDDemoUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7076F734C86A0539B6AC815B1F7D3E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F146FBCBAC2E58BB00DA2DCA76AD926;
+			remoteInfo = JDragonHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0471AA971AF53D1DD9D1F877A6B28F05 /* Pods-JDragonHUDDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDragonHUDDemo-dummy.m"; sourceTree = "<group>"; };
+		0772B8FA97199CE6527DEA5A885881D8 /* Pods-JDragonHUDDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDragonHUDDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		11F6F4311C15E5CFEF35D11A495ABAE8 /* Pods-JDragonHUDDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDragonHUDDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		15B39C95A4C0FDDC38AB20C0CDB173F9 /* Pods-JDragonHUDDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDragonHUDDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		209AAABA666616C35146F2D18D02D410 /* JDragonTipHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDragonTipHUD.m; sourceTree = "<group>"; };
+		2439A86F0DBBB0188CC32D55504629C6 /* JDragonHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDragonHUD-prefix.pch"; sourceTree = "<group>"; };
+		2E7F7C5FBC4D9D7E0985EF4C27BEBA4F /* Pods-JDragonHUDDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDragonHUDDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30214283C1F821BCAD4484F4E081D558 /* libPods-JDragonHUDDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JDragonHUDDemoTests.a"; path = "libPods-JDragonHUDDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3339A17B4325BA78BBC6D510C47EC815 /* Pods-JDragonHUDDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDragonHUDDemo-resources.sh"; sourceTree = "<group>"; };
+		4172A00466A011CD81A71F460607DF69 /* JDragonHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDragonHUD.xcconfig; sourceTree = "<group>"; };
+		475E276D859175BF135DE2C8EED112C1 /* Pods-JDragonHUDDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDragonHUDDemoTests-dummy.m"; sourceTree = "<group>"; };
+		5284C4D78CF497A733EC1B675A33E29F /* Pods-JDragonHUDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDragonHUDDemo.release.xcconfig"; sourceTree = "<group>"; };
+		63CE71E0ACC408C15C6798BEFF339FED /* Pods-JDragonHUDDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDragonHUDDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		6548D9841E274D9E2B1D7EB68E15FE52 /* Pods-JDragonHUDDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDragonHUDDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		731E982DBF7FF79C51397FB32444989C /* JDragonLoadHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDragonLoadHUD.h; sourceTree = "<group>"; };
+		75330F9FA05C2B825FCB0CF85DBE7270 /* JDragonHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDragonHUD-dummy.m"; sourceTree = "<group>"; };
+		820DDA65F464B5F743273740830F5262 /* Pods-JDragonHUDDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDragonHUDDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85C205D4842B104B1CADB089C9F0CC97 /* Pods-JDragonHUDDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDragonHUDDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		86B060A78C86F5FBE48D8D69E7279C1B /* JDragonHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDragonHUD.h; sourceTree = "<group>"; };
+		883C16F34C6030FCD157FB37468AFE3D /* Pods-JDragonHUDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDragonHUDDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC408208FC34DAFFAE6DF7BD44ACC63 /* Pods-JDragonHUDDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDragonHUDDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A76A4052F55086BF19348DC985C9808 /* libPods-JDragonHUDDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JDragonHUDDemoUITests.a"; path = "libPods-JDragonHUDDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDC8C1145EC0B922EBD5741D7490F72 /* Pods-JDragonHUDDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDragonHUDDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7124900C543370F03F553765C85ABA6 /* JDragonTipHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDragonTipHUD.h; sourceTree = "<group>"; };
+		A7226FCA5E4CE766265D3DAAF1D88B36 /* JDragonHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDragonHUD.m; sourceTree = "<group>"; };
+		AB512A524FC448B928E77B927D098CEB /* Pods-JDragonHUDDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDragonHUDDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5937DEF08788DDD26090B9AA07BA9A1 /* Pods-JDragonHUDDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDragonHUDDemo-frameworks.sh"; sourceTree = "<group>"; };
+		BE5B725F8A1A24AFE7D84EF4C3F99CB3 /* libPods-JDragonHUDDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JDragonHUDDemo.a"; path = "libPods-JDragonHUDDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13850C577A49F3E58CE969B69F4DCFE /* Pods-JDragonHUDDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDragonHUDDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		C45563FC023708FBC94165EF7790060A /* Pods-JDragonHUDDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDragonHUDDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D66B58C970DF44DBCA1416BCD8E3E7E6 /* libJDragonHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJDragonHUD.a; path = libJDragonHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E756AB2D40D8CCF2C4A741EACC3FAB9E /* Pods-JDragonHUDDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDragonHUDDemoTests-resources.sh"; sourceTree = "<group>"; };
+		E9F43D07DF271389F4D8636417A97B4A /* Pods-JDragonHUDDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDragonHUDDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB46925716ED945BDCD69565D0C15ABC /* JDragonLoadHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDragonLoadHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3447B46BE821C3BCC19F9ADCC0052162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A03F1CB7CAE83C4FCD62E7EB5D351A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3E1E3BAFE5F6C1FECEE860EB07CC7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36189C5404C57A76731F2040C3B45BD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3D9F2EC901D29D73E87D52F638115A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2925BB559FBECF80E855399278860697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1FB794B6713C17059D73CC76B2D22F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EC729823A456E2A19DB99C8F13B9C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133862A8236FA662ECFBA6901638E997 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9284F17ABA95FE1B7FDEF39AFE48CBFF /* Pods-JDragonHUDDemo */,
+				1BFB8505D2B1AB78202BC3D0B6FD4C18 /* Pods-JDragonHUDDemoTests */,
+				E2B1D161A82FBC8C245AD94182751F76 /* Pods-JDragonHUDDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1BFB8505D2B1AB78202BC3D0B6FD4C18 /* Pods-JDragonHUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E7F7C5FBC4D9D7E0985EF4C27BEBA4F /* Pods-JDragonHUDDemoTests-acknowledgements.markdown */,
+				C45563FC023708FBC94165EF7790060A /* Pods-JDragonHUDDemoTests-acknowledgements.plist */,
+				475E276D859175BF135DE2C8EED112C1 /* Pods-JDragonHUDDemoTests-dummy.m */,
+				63CE71E0ACC408C15C6798BEFF339FED /* Pods-JDragonHUDDemoTests-frameworks.sh */,
+				E756AB2D40D8CCF2C4A741EACC3FAB9E /* Pods-JDragonHUDDemoTests-resources.sh */,
+				E9F43D07DF271389F4D8636417A97B4A /* Pods-JDragonHUDDemoTests.debug.xcconfig */,
+				15B39C95A4C0FDDC38AB20C0CDB173F9 /* Pods-JDragonHUDDemoTests.release.xcconfig */,
+			);
+			name = "Pods-JDragonHUDDemoTests";
+			path = "Target Support Files/Pods-JDragonHUDDemoTests";
+			sourceTree = "<group>";
+		};
+		26391197F6E9195A9A2E92FC558AE935 /* JDragonHUD */ = {
+			isa = PBXGroup;
+			children = (
+				86B060A78C86F5FBE48D8D69E7279C1B /* JDragonHUD.h */,
+				A7226FCA5E4CE766265D3DAAF1D88B36 /* JDragonHUD.m */,
+				731E982DBF7FF79C51397FB32444989C /* JDragonLoadHUD.h */,
+				EB46925716ED945BDCD69565D0C15ABC /* JDragonLoadHUD.m */,
+				A7124900C543370F03F553765C85ABA6 /* JDragonTipHUD.h */,
+				209AAABA666616C35146F2D18D02D410 /* JDragonTipHUD.m */,
+			);
+			name = JDragonHUD;
+			path = JDragonHUD;
+			sourceTree = "<group>";
+		};
+		72F2F149AD52AA9379C39C2BFC470E8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4172A00466A011CD81A71F460607DF69 /* JDragonHUD.xcconfig */,
+				75330F9FA05C2B825FCB0CF85DBE7270 /* JDragonHUD-dummy.m */,
+				2439A86F0DBBB0188CC32D55504629C6 /* JDragonHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "JDragonHUDDemo/Pods/Target Support Files/JDragonHUD";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8A64BDDF8B1FF992E00F523664C19C64 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B0D06F0F5CC4D1C4D29DEE846C926251 /* Products */,
+				133862A8236FA662ECFBA6901638E997 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A64BDDF8B1FF992E00F523664C19C64 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D31DB7F94E4E98E495F4BF2DCD59B3C /* JDragonHUD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9284F17ABA95FE1B7FDEF39AFE48CBFF /* Pods-JDragonHUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				820DDA65F464B5F743273740830F5262 /* Pods-JDragonHUDDemo-acknowledgements.markdown */,
+				11F6F4311C15E5CFEF35D11A495ABAE8 /* Pods-JDragonHUDDemo-acknowledgements.plist */,
+				0471AA971AF53D1DD9D1F877A6B28F05 /* Pods-JDragonHUDDemo-dummy.m */,
+				B5937DEF08788DDD26090B9AA07BA9A1 /* Pods-JDragonHUDDemo-frameworks.sh */,
+				3339A17B4325BA78BBC6D510C47EC815 /* Pods-JDragonHUDDemo-resources.sh */,
+				883C16F34C6030FCD157FB37468AFE3D /* Pods-JDragonHUDDemo.debug.xcconfig */,
+				5284C4D78CF497A733EC1B675A33E29F /* Pods-JDragonHUDDemo.release.xcconfig */,
+			);
+			name = "Pods-JDragonHUDDemo";
+			path = "Target Support Files/Pods-JDragonHUDDemo";
+			sourceTree = "<group>";
+		};
+		9D31DB7F94E4E98E495F4BF2DCD59B3C /* JDragonHUD */ = {
+			isa = PBXGroup;
+			children = (
+				26391197F6E9195A9A2E92FC558AE935 /* JDragonHUD */,
+				72F2F149AD52AA9379C39C2BFC470E8A /* Support Files */,
+			);
+			name = JDragonHUD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B0D06F0F5CC4D1C4D29DEE846C926251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66B58C970DF44DBCA1416BCD8E3E7E6 /* libJDragonHUD.a */,
+				BE5B725F8A1A24AFE7D84EF4C3F99CB3 /* libPods-JDragonHUDDemo.a */,
+				30214283C1F821BCAD4484F4E081D558 /* libPods-JDragonHUDDemoTests.a */,
+				9A76A4052F55086BF19348DC985C9808 /* libPods-JDragonHUDDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2B1D161A82FBC8C245AD94182751F76 /* Pods-JDragonHUDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FDC8C1145EC0B922EBD5741D7490F72 /* Pods-JDragonHUDDemoUITests-acknowledgements.markdown */,
+				85C205D4842B104B1CADB089C9F0CC97 /* Pods-JDragonHUDDemoUITests-acknowledgements.plist */,
+				C13850C577A49F3E58CE969B69F4DCFE /* Pods-JDragonHUDDemoUITests-dummy.m */,
+				0772B8FA97199CE6527DEA5A885881D8 /* Pods-JDragonHUDDemoUITests-frameworks.sh */,
+				8AC408208FC34DAFFAE6DF7BD44ACC63 /* Pods-JDragonHUDDemoUITests-resources.sh */,
+				6548D9841E274D9E2B1D7EB68E15FE52 /* Pods-JDragonHUDDemoUITests.debug.xcconfig */,
+				AB512A524FC448B928E77B927D098CEB /* Pods-JDragonHUDDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-JDragonHUDDemoUITests";
+			path = "Target Support Files/Pods-JDragonHUDDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		308A5E935C795A72605C43295FB5C70C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B94B6FB51543173438489595BD58AE /* JDragonHUD.h in Headers */,
+				A8C782F9D3EF4850D4ECFDD2AD8C8FBE /* JDragonLoadHUD.h in Headers */,
+				A447CB3F04C6BE48ECAFB86EC1862E14 /* JDragonTipHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1023909B59C7D31032445D6846DC10B7 /* Pods-JDragonHUDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C57DF4714398BF74C2232774B33E4F7 /* Build configuration list for PBXNativeTarget "Pods-JDragonHUDDemoUITests" */;
+			buildPhases = (
+				156AE2898183201D9692786327ABEC6D /* Sources */,
+				BC3D9F2EC901D29D73E87D52F638115A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JDragonHUDDemoUITests";
+			productName = "Pods-JDragonHUDDemoUITests";
+			productReference = 9A76A4052F55086BF19348DC985C9808 /* libPods-JDragonHUDDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2455EF4834CF5CA9080DECEB8C834B93 /* Pods-JDragonHUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3746F9CB673D8B25BBDCEF2C04155662 /* Build configuration list for PBXNativeTarget "Pods-JDragonHUDDemoTests" */;
+			buildPhases = (
+				85E2191CC2B2EB3945D4A72CD63A27F5 /* Sources */,
+				DC1FB794B6713C17059D73CC76B2D22F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JDragonHUDDemoTests";
+			productName = "Pods-JDragonHUDDemoTests";
+			productReference = 30214283C1F821BCAD4484F4E081D558 /* libPods-JDragonHUDDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8F146FBCBAC2E58BB00DA2DCA76AD926 /* JDragonHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B870B82FD63BF0105B987DC018C3921B /* Build configuration list for PBXNativeTarget "JDragonHUD" */;
+			buildPhases = (
+				EF7C4BE4601CC2B5FB6B043DACCE62C4 /* Sources */,
+				B3E1E3BAFE5F6C1FECEE860EB07CC7A5 /* Frameworks */,
+				308A5E935C795A72605C43295FB5C70C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDragonHUD;
+			productName = JDragonHUD;
+			productReference = D66B58C970DF44DBCA1416BCD8E3E7E6 /* libJDragonHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EB6D6CEF8A1D5EE5A56E9E455F1F7609 /* Pods-JDragonHUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C4D458F83F145C6865F2292DC6B2FDF /* Build configuration list for PBXNativeTarget "Pods-JDragonHUDDemo" */;
+			buildPhases = (
+				70C2A108C6FA54729DCE9F1BDDF0D3BA /* Sources */,
+				3447B46BE821C3BCC19F9ADCC0052162 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13F4F5A68AFB338FEAE6942C88F8987 /* PBXTargetDependency */,
+			);
+			name = "Pods-JDragonHUDDemo";
+			productName = "Pods-JDragonHUDDemo";
+			productReference = BE5B725F8A1A24AFE7D84EF4C3F99CB3 /* libPods-JDragonHUDDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B0D06F0F5CC4D1C4D29DEE846C926251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F146FBCBAC2E58BB00DA2DCA76AD926 /* JDragonHUD */,
+				EB6D6CEF8A1D5EE5A56E9E455F1F7609 /* Pods-JDragonHUDDemo */,
+				2455EF4834CF5CA9080DECEB8C834B93 /* Pods-JDragonHUDDemoTests */,
+				1023909B59C7D31032445D6846DC10B7 /* Pods-JDragonHUDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		156AE2898183201D9692786327ABEC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2810A92BFD8A918F745F6419C3AB96 /* Pods-JDragonHUDDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C2A108C6FA54729DCE9F1BDDF0D3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0323C3E130896B89E52DB709D2ED02 /* Pods-JDragonHUDDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85E2191CC2B2EB3945D4A72CD63A27F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85E2BF5CFE84933AD6A551D736C6936 /* Pods-JDragonHUDDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7C4BE4601CC2B5FB6B043DACCE62C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4275D45837F8314974C1F1B6A5A46E /* JDragonHUD-dummy.m in Sources */,
+				5589DC37E3835A0FD868B8A9D55CD93A /* JDragonHUD.m in Sources */,
+				3FE0A7447EA59950FA0E7924F81332BB /* JDragonLoadHUD.m in Sources */,
+				AEE380FD66548AF866B0FEB3C88A7F78 /* JDragonTipHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13F4F5A68AFB338FEAE6942C88F8987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDragonHUD;
+			target = 8F146FBCBAC2E58BB00DA2DCA76AD926 /* JDragonHUD */;
+			targetProxy = C7076F734C86A0539B6AC815B1F7D3E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26BE0E9A6CFF8D31DD1622CB23A9381C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6548D9841E274D9E2B1D7EB68E15FE52 /* Pods-JDragonHUDDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4034A7403805BEE219E05BA03575397A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F43D07DF271389F4D8636417A97B4A /* Pods-JDragonHUDDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		51ABAC9331DA2E5AE10CD7E820681D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB512A524FC448B928E77B927D098CEB /* Pods-JDragonHUDDemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D672E521E40AD08C209E8D7934B1D0B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883C16F34C6030FCD157FB37468AFE3D /* Pods-JDragonHUDDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE8A4FA3B512832389FDFEB38F250E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4172A00466A011CD81A71F460607DF69 /* JDragonHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDragonHUD/JDragonHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEACAF296805B0F7E1DD2E44046C0885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5284C4D78CF497A733EC1B675A33E29F /* Pods-JDragonHUDDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F0BBD81424DAAAACEB17330673BFB4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4172A00466A011CD81A71F460607DF69 /* JDragonHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDragonHUD/JDragonHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F1802AF647A9F91D96F29FF302153865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B39C95A4C0FDDC38AB20C0CDB173F9 /* Pods-JDragonHUDDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C4D458F83F145C6865F2292DC6B2FDF /* Build configuration list for PBXNativeTarget "Pods-JDragonHUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D672E521E40AD08C209E8D7934B1D0B6 /* Debug */,
+				DEACAF296805B0F7E1DD2E44046C0885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3746F9CB673D8B25BBDCEF2C04155662 /* Build configuration list for PBXNativeTarget "Pods-JDragonHUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4034A7403805BEE219E05BA03575397A /* Debug */,
+				F1802AF647A9F91D96F29FF302153865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C57DF4714398BF74C2232774B33E4F7 /* Build configuration list for PBXNativeTarget "Pods-JDragonHUDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BE0E9A6CFF8D31DD1622CB23A9381C /* Debug */,
+				51ABAC9331DA2E5AE10CD7E820681D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B870B82FD63BF0105B987DC018C3921B /* Build configuration list for PBXNativeTarget "JDragonHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8A4FA3B512832389FDFEB38F250E7D /* Debug */,
+				F0BBD81424DAAAACEB17330673BFB4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
