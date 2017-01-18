@@ -6,7 +6,7 @@ target 'JDragonHUDDemo' do
   # use_frameworks!
 
   # Pods for JDragonHUDDemo
-pod 'JDragonHUD’, :path => '../JDragonHUD.podspec'  #指定podspec文件
+
 
   target 'JDragonHUDDemoTests' do
     inherit! :search_paths

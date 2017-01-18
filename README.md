@@ -4,6 +4,11 @@
 ![badge-pod] ![badge-languages] ![badge-platforms] ![badge-mit]
 
 
+
+# 使用效果
+![](JDragonHUD.gif)
+
+
 ### user pod
 
 ```
